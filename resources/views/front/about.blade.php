@@ -77,7 +77,7 @@
                                 <div class="author-img"><img src="{{ asset('front_assets/img/logos/logo.png') }}" alt="..."></div>
                                 <!-- <h5 class="text-white mb-0 font-weight-700">John R. Holland</h5>
                                 <span class="text-white d-block mb-3">CEO &amp; Founder</span> -->
-                                <p class="text-white display-28">We pride ourselves on providing best transport services available allover the world.</p>
+                                <p class="text-white display-28">We pride ourselves on providing best product quality and export services allover the globe.</p>
                             </div>
                         </div>
                     </div>

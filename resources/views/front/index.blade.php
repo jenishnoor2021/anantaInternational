@@ -13,7 +13,7 @@
                         <span>Fast and Safe </span>
                         <span class="text-primary">Transportation.</span>
                     </h1>
-                    <p class="w-80 w-lg-70 font-weight-500 display-27 mb-4 text-white opacity5 d-none d-sm-block wow fadeInUp" data-wow-delay="350ms">We pride ourselves on providing the best transport services currently available allover the world.</p>
+                    <p class="w-80 w-lg-70 font-weight-500 display-27 mb-4 text-white opacity5 d-none d-sm-block wow fadeInUp" data-wow-delay="350ms">We pride ourselves on providing best product quality and export services allover the globe.</p>
                 </div>
                 <div class="banner-button wow fadeInUp" data-wow-delay="500ms">
                     <a href="{{URL::to('/services')}}" class="button-arrow"><i class="ti-arrow-right"></i></a>
@@ -81,7 +81,7 @@
                                 <div class="author-img"><img src="{{ asset('front_assets/img/logos/logo.png') }}" alt="..."></div>
                                 <!--<h5 class="text-white mb-0 font-weight-700">John R. Holland</h5>-->
                                 <!--<span class="text-white d-block mb-3">CEO &amp; Founder</span>-->
-                                <p class="text-white display-28">We pride ourselves on providing best transport services available allover the world.</p>
+                                <p class="text-white display-28">We pride ourselves on providing best product quality and export services allover the globe.</p>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                     <div class="card-content">
                         <div class="card-custom-1">
                             <span class="text-white opacity6 d-block mb-2 position-relative z-index-1">01</span>
-                            <h5 class="font-weight-800 display-19 position-relative z-index-1 mb-0"><a href="{{URL::to('/services')}}" class="text-white text-primary-hover">Warehousing</a></h5>
+                            <h5 class="font-weight-800 display-19 position-relative z-index-1 mb-0"><a href="{{URL::to('/services')}}" class="text-white text-primary-hover">Rail Freight</a></h5>
                             <span class="card-hover-icon">
                                 <img src="{{ asset('front_assets/img/icons/icon-10.png') }}" alt="..." class="w-65px">
                             </span>
@@ -365,28 +365,28 @@
             <div class="col-lg-6"></div>
         </div>
     </div>
-        <div class="position-relative">
-            <div class="service-carousel-two owl-carousel owl-theme">
-                @foreach($products as $key=>$product)
-                <div class="card-style04 border-radius-5">
-                    <img src="{{ $product->file }}" alt="..." class="border-radius-5">
-                    <div class="card-content">
-                        <div class="card-custom-1">
-                            <span class="text-white opacity6 d-block mb-2 position-relative z-index-1">{{$key+1}}</span>
-                            <h5 class="font-weight-800 display-19 position-relative z-index-1 mb-0"><a href="{{URL::to('/products')}}" class="text-white text-primary-hover">{{$product->pname}}</a></h5>
-                        </div>
-                        <div class="card-data align-items-end d-flex">
-                            <div class="card-custom-2">
-                                <p class="card-text">{{ $product->pdetail }}</p>
-                                <a href="{{URL::to('/products')}}" class="btn btn-link-1 px-0">Read More</a>
-                            </div>
+    <div class="position-relative">
+        <div class="service-carousel-two owl-carousel owl-theme">
+            @foreach($products as $key=>$product)
+            <div class="card-style04 border-radius-5">
+                <img src="{{ $product->file }}" alt="..." class="border-radius-5">
+                <div class="card-content">
+                    <div class="card-custom-1">
+                        <span class="text-white opacity6 d-block mb-2 position-relative z-index-1">{{$key+1}}</span>
+                        <h5 class="font-weight-800 display-19 position-relative z-index-1 mb-0"><a href="{{URL::to('/products')}}" class="text-white text-primary-hover">{{$product->pname}}</a></h5>
+                    </div>
+                    <div class="card-data align-items-end d-flex">
+                        <div class="card-custom-2">
+                            <p class="card-text">{{ $product->pdetail }}</p>
+                            <a href="{{URL::to('/products')}}" class="btn btn-link-1 px-0">Read More</a>
                         </div>
                     </div>
                 </div>
-                @endforeach
             </div>
+            @endforeach
         </div>
-    
+    </div>
+
 </section>
 
 <!-- EXTRA

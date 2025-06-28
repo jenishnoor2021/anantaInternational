@@ -207,7 +207,7 @@
 <!-- MAP
         ================================================== -->
 <div>
-    <iframe class="map-h500" id="gmap_canvas" src="https://maps.google.com/maps?q=london&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3720.211453052685!2d72.85844227526093!3d21.18375738050465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDExJzAxLjUiTiA3MsKwNTEnMzkuNyJF!5e0!3m2!1sen!2sin!4v1751037865130!5m2!1sen!2sin" class="map-h500" id="gmap_canvas" loading="lazy"></iframe>
 </div>
 
 @endsection

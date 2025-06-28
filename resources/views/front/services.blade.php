@@ -216,11 +216,34 @@
     <div class="container">
         <div class="row text-center justify-content-center">
             <div class="col-lg-11 col-xxl-9 wow fadeInUp" data-wow-delay="200ms">
-                <h2 class="display-4 font-weight-800 lh-1 mb-1-9 mb-md-5 text-white">Looking for the best logistics transport service?</h2>
+                <h2 class="display-4 font-weight-800 lh-1 mb-1-9 mb-md-5 text-white">Looking for the Best export quality and service</h2>
                 <a href="{{URL::to('/contact')}}" class="butn-style1"><span>Contact Us</span></a>
             </div>
         </div>
     </div>
 </section>
 
+@endsection
+
+@section('page_script')
+<script>
+    (function($) {
+        $(".read_more").click(function() {
+            var TextValue = $(this).text();
+            if (TextValue == "Read More") {
+                $(this).text("Read Less");
+                $(this).siblings(".service_desc").css({
+                    'overflow': 'visible',
+                    'max-height': '100%'
+                });
+            } else {
+                $(this).text("Read More");
+                $(this).siblings(".service_desc").css({
+                    'overflow': 'hidden',
+                    'max-height': '75px'
+                });
+            }
+        });
+    })(jQuery);
+</script>
 @endsection

@@ -7,7 +7,7 @@
                         <a href="{{URL::to('/')}}"><img src="{{ asset('front_assets/img/logos/logo.png') }}" alt="..."></a>
                     </div>
                 </div>
-                <p class="mb-1-6" style="color:#000;">We pride ourselves on providing the best transport and shipping services.</p>
+                <p class="mb-1-6" style="color:#000;">We pride ourselves on providing best product quality and export services allover the globe.</p>
                 <ul class="social-icon-style3 list-unstyled mb-0">
                     <li><a href="{{$facebook}}"><i class="fa-brands fa-facebook-f"></i></a></li>
                     <li><a href="{{$twitter}}"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -47,13 +47,13 @@
                 </div>
                 <ul class="list-unstyled footer-link list-style6 mb-0">
                     <li><a href="#" style="color: #000;"><span style="color: #1b3d72;"><b>Address:</b> </span>{{ $company_address }}</a></li>
-                    <li><a href="mailto:anantainternational@gmail.com" style="color: #000;"><span style="color: #1b3d72;"><b>Mail:</b> </span>{{ $company_email }}</a></li>
+                    <li><a href="mailto:anantainternational03@gmail.com" style="color: #000;"><span style="color: #1b3d72;"><b>Mail:</b> </span>{{ $company_email }}</a></li>
                     <li><a href="tel:{{ $company_contact }}" style="color: #000;"><span style="color: #1b3d72;"><b>Phone:</b> </span>{{ $company_contact }}</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="row border-top border-color-light-white align-items-center justify-content-center pt-1-6 pb-1-9" style="border-color:#1b3d72 !important;">
-        Copyright @2025 ANANTA INTERNATIONAL All Rights Diserved
+        Copyright @2025 ANANTA INTERNATIONAL All Rights Reserved
     </div>
 </div>

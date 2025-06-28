@@ -31,7 +31,7 @@ class AppServiceProvider extends ServiceProvider
         if (!$company) {
             $number = '1111111111';
             $address = 'test address';
-            $email = 'test@gmail.com';
+            $email = 'anantainternational03@gmail.com';
             $facebook = 'https://www.facebook.com/';
             $instagram = 'https://www.instagram.com/accounts/login/?hl=en';
             $twitter = 'https://twitter.com/login?';
