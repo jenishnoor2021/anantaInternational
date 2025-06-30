@@ -375,11 +375,12 @@
                         <span class="text-white opacity6 d-block mb-2 position-relative z-index-1">{{$key+1}}</span>
                         <h5 class="font-weight-800 display-19 position-relative z-index-1 mb-0"><a href="{{URL::to('/products')}}" class="text-white text-primary-hover">{{$product->pname}}</a></h5>
                     </div>
-                    <div class="card-data align-items-end d-flex">
-                        <div class="card-custom-2">
-                            <p class="card-text">{{ $product->pdetail }}</p>
-                            <a href="{{URL::to('/products')}}" class="btn btn-link-1 px-0">Read More</a>
+                    <div class="card-data align-items-end">
+                        <div class="card-custom-2 product_desc">
+                            {!! $product->pdetail !!}
                         </div>
+                        <!-- <span class="read_more" style="display: inline-block;">Read More</span> -->
+                        <a href="{{URL::to('/products')}}" class="btn btn-link-1 px-0">Read More</a>
                     </div>
                 </div>
             </div>
@@ -442,4 +443,27 @@
     </div>
 </section>
 
+@endsection
+
+@section('page_script')
+<script>
+    (function($) {
+        $(".read_more").click(function() {
+            var TextValue = $(this).text();
+            if (TextValue == "Read More") {
+                $(this).text("Read Less");
+                $(this).siblings(".product_desc").css({
+                    'overflow': 'visible',
+                    'max-height': '100%'
+                });
+            } else {
+                $(this).text("Read More");
+                $(this).siblings(".product_desc").css({
+                    'overflow': 'hidden',
+                    'max-height': '75px'
+                });
+            }
+        });
+    })(jQuery);
+</script>
 @endsection
