@@ -162,7 +162,7 @@
                         <div class="flex-grow-1 ms-4">
                             <h3 class="h5 text-white">Phone Number</h3>
                             <span class="text-white d-block mb-1">{{ $company_contact }}</span>
-                            <span class="text-white">{{ $company_contact }}</span>
+                            <!-- <span class="text-white">{{ $company_contact }}</span> -->
                         </div>
                     </div>
                     <div class="d-flex mb-4 pb-3 border-bottom border-color-light-white wow fadeInUp" data-wow-delay="650ms">
@@ -172,7 +172,7 @@
                         <div class="flex-grow-1 ms-4">
                             <h3 class="h5 text-white">Email Address</h3>
                             <span class="text-white d-block mb-1">{{ $company_email }}</span>
-                            <span class="text-white">{{ $company_email }}</span>
+                            <!-- <span class="text-white">{{ $company_email }}</span> -->
                         </div>
                     </div>
                     <div class="d-flex mb-4 pb-3 border-bottom border-color-light-white wow fadeInUp" data-wow-delay="800ms">
